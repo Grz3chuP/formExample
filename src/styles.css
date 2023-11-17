@@ -24,12 +24,18 @@
 }
 .customBG3 {
   background-color: var(--backgroundColorThirdCustom);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.customBG3click {
+  background-color: var(--backgroundColorThirdCustom);
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-.customBG3:hover {
+.customBG3click:hover {
   background-color: var(--buttonColorSecondaryHover);
   box-shadow: var( --shadowMainColor) 1px 1px 2px 1px;
 }
@@ -40,13 +46,15 @@
   border: var(--borderColorMain) solid 1px;
   box-shadow: inset var(--shadowMainColor) 1px 1px 2px 1px;
   transition: 0.2s ease-in-out;
-  padding: 0 5px;
+  padding: 5px 10px;
   width: 150px;
 }
 .customInput:hover {
   background-color: var(--buttonColorSecondary);
 }
-
+.cursorOn {
+  cursor: pointer;
+}
 .customButtonMain {
   background-color: var(--buttonColorMain);
   border: var(--borderColorMain) solid 1px;
