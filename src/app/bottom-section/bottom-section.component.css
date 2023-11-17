@@ -1,0 +1,26 @@
+.bottomSectionWrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--backgroundColorMainCustom);
+}
+
+.bottomSection {
+  width: 100%;
+  padding: 10px;
+  border: var(--borderColorMain) solid 1px;
+  border-radius: 15px;
+  background-color: var(--backgroundColorSecendCustom);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.drukujButton button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}

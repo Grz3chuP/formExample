@@ -1,0 +1,55 @@
+.topSectionWrapper {
+  width: 50%;
+   background-color: var(--backgroundColorMainCustom);
+}
+.documentTitleWrapper{
+  width: 100%;
+  padding: 10px;
+
+}
+.mainSectionWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+}
+.mainSection {
+  width: 100%;
+  padding: 10px;
+  border: var(--borderColorMain) solid 1px;
+  border-radius: 15px;
+  background-color: var(--backgroundColorSecendCustom);
+}
+
+.wybierzDokument {
+  padding: 5px 10px;
+}
+.wybierzDokument select {
+  width: 100%;
+  height:40px;
+  border: var(--borderColorMain) solid 1px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.wybierzDokumentLine {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  background-color: var(--backgroundColorThirdCustom);
+  border-radius: 10px;
+}
+.zaznaczOdznaczZOPZ input {
+  margin-right: 5px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+
+}
+
